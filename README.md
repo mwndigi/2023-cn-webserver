@@ -2,6 +2,10 @@
 
 Når du har oprettet en Droplet på DigitalOcean skal du tilgå Droplet Console.
 
+![webserver](https://res.cloudinary.com/dx68rf5pj/image/upload/v1695129788/cbs/2023/exercises/2/%C3%98velse_2_-_Ops%C3%A6tning_af_en_webserver-05_cz8bwn.png)
+
+![Droplet Console](https://res.cloudinary.com/dx68rf5pj/image/upload/v1695129798/cbs/2023/exercises/2/%C3%98velse_2_-_Ops%C3%A6tning_af_en_webserver-14_agtxtz.png)
+
 ## Node.js
 
 Følg de tre trin i dokumentationen for [NodeSource](https://github.com/nodesource/distributions#nodejs) for at installere Node.js:
@@ -99,6 +103,8 @@ server {
 }
 ```
 
+[!Nginx konfiguration](https://res.cloudinary.com/dx68rf5pj/image/upload/v1695129805/cbs/2023/exercises/2/%C3%98velse_2_-_Ops%C3%A6tning_af_en_webserver-23_nojiop.png)
+
 Tryk CTRL+X for at afslutte og tryk Y for ja til at gemme ændringerne.
 
 ## GitHub Personal Access Token
@@ -112,6 +118,8 @@ Vælg Tokens (classic) og 'Generate new token (classic)'.
 Her kan du give dit token et navn og give den tilladelse til repo.
 
 Når din token er oprettet skal du kopiere og gemme den, da du ikke vil kunne se den igen på GitHub.
+
+[!GitHub Personal Access Token](https://res.cloudinary.com/dx68rf5pj/image/upload/v1695129803/cbs/2023/exercises/2/%C3%98velse_2_-_Ops%C3%A6tning_af_en_webserver-28_e65wx6.png)
 
 Denne token kan du bruge til 'git clone' og 'git pull' fra GitHub.
 
