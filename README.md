@@ -2,7 +2,7 @@
 
 Når du har oprettet en Droplet på DigitalOcean skal du tilgå Droplet Console.
 
-Følg de tre trin i dokumentationen for [NodeSource](https://github.com/nodesource/distributions#nodejs)https://github.com/nodesource/distributions#nodejs) for at installere Node.js:
+Følg de tre trin i dokumentationen for [NodeSource](https://github.com/nodesource/distributions#nodejs) for at installere Node.js:
 
 1) Download og importer Nodesource GPG nøgle
 
