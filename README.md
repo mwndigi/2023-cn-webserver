@@ -50,7 +50,7 @@ Opsætning af firewall.
 ```
 sudo ufw app list
 sudo ufw allow 'Nginx HTTP’
-ufw allow OpenSSH
+sudo ufw allow OpenSSH
 sudo ufw enable
 sudo ufw status
 ```
@@ -126,6 +126,14 @@ Brug git pull til at hente opdateringer i projektkoden fra GitHub.
 
 ```
 git pull https://ghp_yjxvPiI8mqEMTmy@github.com/miwnKEA/joe.git
+```
+
+Erstat med din egen token som følgende.
+
+```
+git clone https://token_her@github.com/brugernavn/reponavn.git
+
+git pull https://token_her@github.com/brugernavn/reponavn.git
 ```
 
 ## PM2
