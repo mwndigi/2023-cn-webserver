@@ -53,7 +53,7 @@ Opsætning af firewall.
 
 ```
 sudo ufw app list
-sudo ufw allow 'Nginx HTTP’
+sudo ufw allow 'Nginx HTTP'
 sudo ufw allow OpenSSH
 sudo ufw enable
 sudo ufw status
